@@ -1,0 +1,232 @@
+.footer {
+    color: #fff;
+    background-color: #003e9c;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 43px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Inter, Arial;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+}
+
+.flex-container {
+    width: 65%;
+    flex-direction: row;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: stretch;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: Eczar, Arial;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 31px;
+    display: flex;
+}
+
+.for-artisans {
+    margin-top: 1px;
+}
+
+.resource {
+    align-self: center;
+    margin-bottom: 1px;
+}
+
+.company {
+    align-self: flex-end;
+    margin-left: 4px;
+    margin-right: -805px;
+}
+
+.flex-container-1 {
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 103px;
+    display: flex;
+}
+
+.how-to-hire {
+    margin-bottom: 1px;
+    margin-right: 25px;
+}
+
+.how-to-find-gigs {
+    margin-left: 8px;
+}
+
+.help-support {
+    margin-left: 7px;
+}
+
+.about-us {
+    margin-bottom: 1px;
+    margin-right: -804px;
+}
+
+.flex-container-2 {
+    width: 90%;
+    flex-direction: row;
+    flex-basis: 13%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+}
+
+.logo-instance-1 {
+    height: 95%;
+    flex-basis: 23%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.flex-container-3 {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: stretch;
+    margin-top: 1px;
+    display: flex;
+}
+
+.payment-service {
+    margin-left: 2px;
+}
+
+.flex-container-4 {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: stretch;
+    margin-top: 1px;
+    margin-left: 19px;
+    display: flex;
+}
+
+.flex-container-5 {
+    height: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 1px;
+    margin-left: 19px;
+    display: flex;
+}
+
+.flex-container-6 {
+    height: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1px;
+    margin-left: 24px;
+    display: flex;
+}
+
+.careers {
+    margin-left: 1px;
+}
+
+.flex-container-7 {
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: stretch;
+    padding-bottom: 1px;
+    display: flex;
+}
+
+.hire-nationwide {
+    margin-top: -1px;
+    margin-bottom: 1px;
+    margin-right: 3px;
+}
+
+.find-gigs-nationwide {
+    margin-top: -1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+.community {
+    margin-top: -1px;
+    margin-bottom: 1px;
+}
+
+.contact-us {
+    margin-left: 28px;
+}
+
+.flex-container-8 {
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 6px;
+    padding-bottom: 1px;
+    display: flex;
+}
+
+.hire-locally,
+.find-gigs-locally {
+    margin-top: -1px;
+    margin-bottom: 1px;
+}
+
+.flex-container-9 {
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    font-family: Eczar, Arial;
+    font-weight: 500;
+    line-height: 23px;
+    display: flex;
+}
+
+.connect-with-us {
+    margin-bottom: 2px;
+}
+
+.frame {
+    width: 192px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.copyright {
+    width: 90%;
+    border: 1px solid #fff;
+    flex-direction: row;
+    flex-basis: 11%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 26px;
+    display: flex;
+}
+
+.mdicopyright {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.num-2023-contract-me-p {
+    margin-top: 1px;
+    margin-left: 5px;
+}

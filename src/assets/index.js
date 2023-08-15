@@ -1,0 +1,18 @@
+export const icons = {
+  secure: require("./icons/secure.svg").default,
+  easy: require("./icons/easy.svg").default,
+  quality: require("./icons/quality.svg").default,
+  search: require("./icons/search.svg").default,
+  beauty: require("./icons/beauty.svg").default,
+  technical: require("./icons/technical.svg").default,
+  logistics: require("./icons/logistics.svg").default,
+  construction: require("./icons/construction.svg").default,
+  interior: require("./icons/interior.svg").default,
+  hospitality: require("./icons/hospitality.svg").default,
+  star: require("./icons/star.svg").default,
+  map: require("./icons/map.svg").default,
+  artisan: require("./icons/artisan.svg").default,
+  client: require("./icons/client.svg").default,
+  love: require("./icons/love.svg").default,
+  tick: require("./icons/tick.svg").default,
+};
