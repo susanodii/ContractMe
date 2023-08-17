@@ -26,20 +26,26 @@ const NavMenu = () => {
         <header className="container mx-auto">
           <nav className="flex justify-evenly items-center">
             <h2 className="font-bodoni font-extrabold text-blue500 text-3xl">
+              <Link to={'/'}>
+              
               ContractMe
+              </Link>
             </h2>
             <ul className="flex justify-evenly basis-1/2 items-center p-2 text-lg font-medium">
               <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"hire-artisans"}>
                 <li className="hire-artisans ">Hire Artisans</li>
               </Link>
-              <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"sign-up"}>
-              <li className="Find-work"> Find Work</li>
+             
+              <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"FindWorkPage"}>
+              <li className="Find-work">Find Work</li>
               </Link>
+              
               <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"AboutUsPage"}>
               
               <li className="about-us">About Us</li>
 
               </Link>
+              
               
             </ul>
 
