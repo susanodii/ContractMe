@@ -16,10 +16,10 @@ const Process = () => {
         <span>Artisans</span>
       </div>
 
-      <div className="mt-4 basis-[15%] flex gap-4 w-full">
+      <div className="mt-4 basis-[15%] flex gap-4 w-full flex-wrap md:flex-nowrap">
         <div className="flex flex-col gap-2">
-          <div className="w-[15%] mb-4 rounded-lg flex justify-center items-center bg-white">
-            <span className="text-blue500 py-2 px-4 text-3xl font-semibold">
+          <div className="w-[15%] mb-4 rounded-lg flex justify-center items-center bg-white ">
+            <span className="text-blue500 py-2 px-4 text-3xl font-semibold ">
               1
             </span>
           </div>

@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <main>
       <HeroSection />
-      <Brands />
+      {/* <Brands /> */}
       <WhyUs />
       <Process />
       <ArtisanCategories />
