@@ -1,11 +1,15 @@
+import ArtisanCategories from "../components/LandingPageContent/ArtisanCategories/ArtisanCategories";
+import ClientReviews from "../components/LandingPageContent/ClientReviews/ClientReviews";
+import ExemplaryArtisans from "../components/LandingPageContent/ExemplaryArtisans/ExemplaryArtisans";
+import GetCertified from "../components/LandingPageContent/GetCertified/GetCertified";
 import HeroSection from "../components/Header/HeroSection";
 import Process from "../components/LandingPageContent/Process";
-import ClientReviews from "../components/LandingPageContent/ClientReviews/ClientReviews";
 import WhyUs from "../components/LandingPageContent/WhyUs/WhyUs";
-import Brands from "../components/LandingPageContent/Brands/Brands";
-import ArtisanCategories from "../components/LandingPageContent/ArtisanCategories/ArtisanCategories";
-import GetCertified from "../components/LandingPageContent/GetCertified/GetCertified";
-import ExemplaryArtisans from "../components/LandingPageContent/ExemplaryArtisans/ExemplaryArtisans";
+
+// import Brands from "../components/LandingPageContent/Brands/Brands";
+
+
+
 
 const HomePage = () => {
   return (
