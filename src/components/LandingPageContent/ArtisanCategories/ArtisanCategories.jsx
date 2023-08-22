@@ -1,5 +1,6 @@
 import React from "react";
 import { icons } from "../../../assets";
+
 // import Button from "../../UI/Button";
 
 const ArtisanCategories = () => {
@@ -37,7 +38,7 @@ const ArtisanCategories = () => {
     },
   ];
   return (
-    <section className="container mx-auto flex flex-col justify-evenly p-8 mt-24">
+    <section className="container mx-auto flex flex-col justify-evenly p-8 mt-24  ">
       <h2 className="text-sm text-grey text-center mb-2">
         VARIETY OF ARTISANS
       </h2>
@@ -45,7 +46,7 @@ const ArtisanCategories = () => {
         Available Categories
       </h3>
 
-      <div className="flex justify-evenly mb-6 py-6 px-14">
+      <div className="flex flex-col gap-2 justify-evenly py-6 px-14 md:flex-row mb-6 ">
         {categoriesData.slice(0, 3).map((category) => (
           <div className="flex items-center gap-3.5">
             <span className="bg-blue50 rounded-full p-4">
@@ -62,7 +63,7 @@ const ArtisanCategories = () => {
         ))}
       </div>
 
-      <div className="flex justify-evenly py-6 px-14">
+      <div className="flex justify-evenly py-6 px-14 flex-col gap-2 md:flex-row">
         {categoriesData.slice(3, 6).map((category) => (
           <div className="flex items-center gap-3.5">
             <span className="bg-blue50 rounded-full p-4">
