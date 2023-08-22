@@ -21,7 +21,7 @@ const HomePage = () => {
       <ArtisanCategories />
       <ExemplaryArtisans />
       <ClientReviews />
-      <GetCertified />
+      {/* <GetCertified /> */}
     </main>
   );
 };

@@ -9,7 +9,7 @@ const WhyUs = () => {
         We Prioritize your Time and Comfort
       </h3>
 
-      <div className="mt-4 basis-[15%] flex gap-6 w-full">
+      <div className="mt-4 basis-[15%] flex flex-wrap gap-6 w-full md:flex-nowrap">
         <div className="flex flex-col gap-2 border border-blue200 rounded-2xl py-8 px-4">
           <div className="w-[18%] mb-4 rounded-lg flex justify-center items-center self-center bg-blue50">
             <span className="py-4 px-4">
