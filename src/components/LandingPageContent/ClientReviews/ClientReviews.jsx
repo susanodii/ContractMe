@@ -8,7 +8,7 @@ const ClientReviews = () => {
         What Our Clients are Saying
       </h3>
 
-      <div className="mt-4 basis-[15%] flex gap-4 w-full">
+      <div className="mt-4 basis-[15%] flex flex-col gap-4 w-full md:flex-row">
         <div className="flex flex-col gap-2 bg-white py-[17px] px-4 rounded-2xl">
           <span className=" font-inter font-normal text-sm leading-[22.4px]">
             All the best services that i have ever enjoyed was rendered by the
