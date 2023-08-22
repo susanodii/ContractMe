@@ -1,6 +1,6 @@
-import linkedin from "../../assets/linkedin.png";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
+import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 import { useLocation } from "react-router-dom";
 
@@ -11,10 +11,10 @@ const Footer = () => {
   return (
     <>
     { isSignUp ? ( <></>) : (
-      <footer className="bg-blue500 px-20 pt-10 pb-4 font-inter text-white mt-24">
-      <section className="flex items-baseline justify-between ">
+      <footer className="bg-blue500  pt-10 pb-4 font-inter text-white mt-24 flex flex-wrap flex-col  ">
+      <section className="flex flex-wrap flex-col w-full gap-4 items-baseline justify-between  md:flex-row">
         <div className="self-center">
-          <h2 className="font-extrabold text-3xl font-bodoni"> ContractMe </h2>
+          <h2 className="font-extrabold text-3xl font-bodoni "> ContractMe </h2>
         </div>
 
         <div className="flex-col justify-around">
@@ -22,8 +22,8 @@ const Footer = () => {
             <span className="font-medium text-2xl ">For Clients</span>
           </div>
 
-          <div className="flex flex-col gap-4 font-normal text-lg">
-            <span>How to Hire</span>
+          <div className="flex flex-wrap gap-4 font-normal text-lg md:flex-col">
+            <span className="">How to Hire</span>
             <span>Artisans Marketplace</span>
             <span className="payment-service">Payment Service</span>
 
@@ -37,7 +37,7 @@ const Footer = () => {
             <span className="font-medium text-2xl ">For Artisans</span>
           </div>
 
-          <div className="flex flex-col gap-4 font-normal text-lg">
+          <div className="flex flex-wrap gap-4 font-normal text-lg md:flex-col">
             <span>How to find Gigs</span>
             <span>How to send Proposals</span>
             <span>Request for Reviews</span>
@@ -52,7 +52,7 @@ const Footer = () => {
             <span className="font-medium text-2xl ">Resource</span>
           </div>
 
-          <div className="flex flex-col gap-4 font-normal text-lg">
+          <div className="flex flex-wrap gap-4 font-normal text-lg md:flex-col">
             <span>Help &amp; Support</span>
             <span>Success Stories</span>
             <span>ContractMe Review</span>
@@ -66,7 +66,7 @@ const Footer = () => {
             <span className="font-medium text-2xl ">Company</span>
           </div>
 
-          <div className="flex flex-col gap-4 font-normal text-lg">
+          <div className="flex flex-wrap gap-4 font-normal text-lg md:flex-col">
             <span>About Us</span>
             <span>Affiliate Brands</span>
             <span>Careers</span>

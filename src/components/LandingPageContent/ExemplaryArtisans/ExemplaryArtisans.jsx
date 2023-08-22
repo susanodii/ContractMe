@@ -1,9 +1,10 @@
+import Button from "../../UI/Button";
 import React from "react";
 import { icons } from "../../../assets";
 import person1 from "../../../assets/person_1.png";
 import person2 from "../../../assets/person_2.png";
 import person3 from "../../../assets/person_3.png";
-import Button from "../../UI/Button";
+
 const ExemplaryArtisans = () => {
   const artisansData = [
     {
@@ -29,7 +30,7 @@ const ExemplaryArtisans = () => {
         Discover Top Artisans
       </h3>
 
-      <div className="mt-4 basis-[15%] flex gap-6 w-full self-center justify-evenly ">
+      <div className="mt-4 basis-[15%] flex flex-col gap-4 w-full self-center justify-evenly md:flex-row  x-gap-6 ">
         {artisansData.map((artisan) => (
           <div className=" relative flex flex-col gap-2 items-center border border-lightGrey rounded-2xl py-8 px-24">
             <div className="mb-4 self-center">
