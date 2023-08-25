@@ -35,8 +35,8 @@ const NavMenu = () => {
         <>  </>
       ) : (
         <header className="container mx-auto w-full ">
-          <nav className=" h-full sm: h-full flex fixed  justify-start items-center  w-full md:static justify-evenly h-full">
-            <h2 className="font-bodoni font-extrabold text-blue500 text-3xl sm:absolute md:static left-0 top-2">
+          <nav className=" h-full sm: h-full flex   justify-start items-center  w-full md:static justify-evenly h-full">
+            <h2 className="font-bodoni font-extrabold text-blue500 text-3xl sm:absolute md:static left-2 top-2">
               <Link to={'/'}>
               
               ContractMe
@@ -50,7 +50,7 @@ const NavMenu = () => {
 
               {window.innerWidth > 768 && <NavDesktop className='' />}
               
-            <ul className={active ? 'sm:flex flex-col justify-evenly items-center p-2 text-lg font-medium   w-full  gap-12 top-40 md:flex-row  basis-1/2 justify-center items-center' :  'hidden'  }>
+            <ul className={active ? 'sm:flex flex-col justify-center h-screen items-center p-2 text-lg font-medium   w-full  gap-12 top-40 md:flex-row  basis-1/2 justify-center items-center' :  'hidden'  }>
            
                <div className='sm:block md:hidden' >
                 
@@ -58,16 +58,16 @@ const NavMenu = () => {
               </div>
              
               <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"hire-artisans"}>
-                <li className="hire-artisans ">Hire Artisans</li>
+                <li onClick={()=>setActive(false)} className="hire-artisans ">Hire Artisans</li>
               </Link>
              
               <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"FindWorkPage"}>
-              <li className="Find-work">Find Work</li>
+              <li  onClick={()=>setActive(false)}className="Find-work">Find Work</li>
               </Link>
               
-              <Link className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"AboutUsPage"}>
+              <Link  className="active:text-blue500 visited:text-blue500 hover:text-blue500" to={"AboutUsPage"}>
               
-              <li className="about-us">About Us</li>
+              <li onClick={()=>setActive(false)} className="about-us">About Us</li>
 
               </Link>
               
@@ -81,7 +81,7 @@ const NavMenu = () => {
               My account
               </Button>
             ) : (
-              <div className="static flex flex-row  sm:flex gap-8 absolute left-0 top-14 gap-2 md:static  ">
+              <div className="static flex flex-row  sm:flex gap-8 absolute left-2 top-14 gap-2 md:static  ">
                 <Button className="text-blue500 border border-solid border-blue500 font-semibold text-lg ">
                   Log in
                 </Button>
