@@ -1,6 +1,7 @@
 import ArtisanSearchFilters from "../HireArtisans/ArtisanSearchFilters";
 import {BsBookmark} from 'react-icons/bs';
 import {BsGeoAlt} from 'react-icons/bs'
+import MenuIcon from '@mui/icons-material/Menu';
 import React from "react";
 import truck from '../../assets/truck.png'
 
@@ -98,15 +99,19 @@ jobDiscriptionDetail : 'Ipsum purus massa nunc vestibulum vel id amet turpis...'
 const FindWorkSearchResults = () => {
   return (
    <section className='flex   gap-8 ml-8 mt-12 w-10/12'>
-<div className="flex flex-wrap">  
+<div className=" sm:hidden md:flex flex-wrap">  
 <ArtisanSearchFilters/>
   
 </div>
 
 
 <section id="cheere" className=" flex flex-col  w-full " >
-
-<div className="flex items-center justify-between  text-black   pr-28">
+<div className="sm:block md:hidden">
+        <MenuIcon/>
+       </div>
+<div className="flex items-start justify-between  text-black gap-10   md: pr-28 items-center">
+       
+       
         <p id='hi' className="text-2xl font-medium w-2/4"> 200+ Results</p>
         <div className="flex items-center justify-start gap-[0.5rem] text-base text-black-200">
           <span className=" text-base font-inter">Sort</span>

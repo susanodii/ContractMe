@@ -1,17 +1,8 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import findworkBanner from '../../assets/findworkBanner.png'
 
 const FindWorkBanner = () => {
   
-  const location = useLocation();
-  const isFindWork = location.pathname.match(/\/(\w+\-)*FindWorkPage/);
- 
-  let navigate = useNavigate();
-  const signUpClickHandler = () => {
-    let destinationPath = "/FindWorkPage";
-    navigate(destinationPath);
-  };
+  
 
   
   
@@ -19,7 +10,7 @@ const FindWorkBanner = () => {
   
   return (
    
-<section className="w-full h-[21.13rem] overflow-hiddenz bg-[url('~/src/assets/hire_artisan_bg.png')] bg-cover bg-no-repeat bg-[top] text-[3.5rem] mt-6">
+<section className="w-full h-[21.13rem] overflow-hiddenz bg-[url('~/src/assets/hire_artisan_bg.png')] bg-cover bg-no-repeat bg-[top] text-[3.5rem] mt-28 md:mt-6">
 <div className="flex flex-col h-full justify-center items-center">
   <p className="leading-[4.2rem] text-white font-semibold">
     Find WORK
