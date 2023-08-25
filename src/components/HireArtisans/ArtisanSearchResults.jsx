@@ -1,4 +1,4 @@
-import Button from "../UI/Button";
+import MenuIcon from '@mui/icons-material/Menu';
 import React from "react";
 import { icons } from "../../assets";
 import person1 from "../../assets/person_1.png";
@@ -45,8 +45,12 @@ const mockResults = [
 
 const ArtisanSearchResults = () => {
   return (
-    <section className="flex flex-col justify-evenly ">
-      <div className="flex items-center justify-start gap-[30.5rem]  text-black ">
+    <section className="flex flex-col justify-evenly  ">
+      <div className=" mb-4 sm:block md:hidden">
+        <MenuIcon className=''/>
+      </div>
+      
+      <div className="flex items-center mb-4 justify-start text-black md:gap-[30.5rem] ">
         <p className="text-2xl font-medium">200+ Results</p>
         <div className="flex items-center justify-start gap-[0.5rem] text-base text-black-200">
           <span className=" text-base font-inter">Sort</span>

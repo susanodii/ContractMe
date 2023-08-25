@@ -1,6 +1,6 @@
-import HireArtisansBanner from "../components/HireArtisans/HireArtisansBanner";
-import ArtisanSearchResults from "../components/HireArtisans/ArtisanSearchResults";
 import ArtisanSearchFilters from "../components/HireArtisans/ArtisanSearchFilters";
+import ArtisanSearchResults from "../components/HireArtisans/ArtisanSearchResults";
+import HireArtisansBanner from "../components/HireArtisans/HireArtisansBanner";
 
 const HireArtisans = () => {
   // const navigate = useNavigate();
@@ -41,7 +41,10 @@ const HireArtisans = () => {
     <div className=" ">
       <HireArtisansBanner />
       <div className="flex container mx-auto gap-7 mt-10">
-        <ArtisanSearchFilters />
+        <div className="sm:hidden md:block ">
+
+      <ArtisanSearchFilters />
+        </div>
         <ArtisanSearchResults />
       </div>
     </div>
