@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-
 import Button from "../UI/Button";
 import { icons } from "../../assets";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const GeneralSignUp = () => {
   const [checkedPersona, setCheckedPersona] = useState("client");
@@ -29,16 +28,16 @@ const GeneralSignUp = () => {
     setCheckedPersona(e.target.id);
   };
   return (
-    <div className="container mx-auto mt-20 text-2xl text-black-200">
+    <div className="container mx-auto mt-20 text-2xl text-black-200 ">
       <h2 className="font-bodoni font-extrabold text-blue500 text-3xl">
         ContractMe
       </h2>
-      <div className="rounded-2xl w-[64.44rem] h-[28.94rem] border-[1px] border-lightGrey p-8 mt-14 ">
+      <div className="rounded-2xl  border-[1px] border-lightGrey p-8 mt-14 md:w-[64.44rem] h-[28.94rem] ">
         <h3 className="text-center mb-6 font-inter font-extrabold text-3xl">
           Join as a client or artisan
         </h3>
 
-        <div className="flex items-center justify-center gap-6 mb-8">
+        <div className="flex items-center flex-col justify-center gap-6 mb-8 md:flex-row">
           <div className="rounded-2xl flex flex-col  py-4 px-4 items-center justify-center border-[1px] border-lightGrey">
             <div className="flex flex-col py-2 px-3 items-start justify-center relative gap-[1rem]">
               <div className="relative rounded-full p-2 bg-blue50 w-12 h-12 shrink-0 ">
@@ -98,12 +97,12 @@ const GeneralSignUp = () => {
           ) : (
             <Button
               onClick={routeChange}
-              className="rounded-lg bg-blue500 leading-[1.38rem] self-center text-lg text-white font-semibold"
+              className="rounded-lg bg-blue500 leading-[1.38rem] self-center text-lg text-white font-semibold "
             >
               Apply as an artisan
             </Button>
           )}
-          <div className="text-sm">
+          <div className="text-sm mb-8">
             <span>Already have an account? </span>
             <a className="text-base font-medium text-blue500">Sign in</a>
           </div>
