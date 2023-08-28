@@ -4,13 +4,15 @@ import React from 'react'
 const AboutUsHero = () => {
   return (
     
-    <section className='pl-56 pr-96 mt-8 '>
-<div className=' flex flex-wrap items-center gap-5'>
-  
+    <section className=' sm:mt-32 p-4 md:ml-4 md:mr-4 md:mt-8 lg:ml-56 lg:mr-96  '>
+<div className=' flex flex-wrap  items-center gap-5'>
+  <div className='w-12 md:w-48'>
+    
 <img src={Ngozie} alt='Ngozie'/>
+  </div>
   
 <div className=''>
-<h3  className=' text-2xl font-extrabold'> Ngozi Olagoke</h3>
+<h3  className=' text-xl font-extrabold'> Ngozi Olagoke</h3>
 <h4 className='text-dark'> President & CEO</h4>
 </div>
 </div>
