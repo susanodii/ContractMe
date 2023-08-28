@@ -145,18 +145,18 @@ const BusinessOwnerSignUp = () => {
         ContractMe
       </h2>
 
-      <div className="w-[70%] mx-auto mt-16">
+      <div className=" mx-auto mt-16 md:w-[70%]">
         <form className="" onSubmit={submitHandler}>
           <h3 className="text-center mb-6 font-inter font-extrabold text-3xl">
             Business owner sign up
           </h3>
 
-          <div className="mb-4 flex flex-col gap-2">
+          <div className="mb-4 flex flex-col gap-2 w-full">
             <label className="font-medium text-lg" htmlFor="name">
               First Name
             </label>
             <input
-              className={`${nameClasses} bg-offWhite`}
+              className={`${nameClasses} bg-offWhite w-full`}
               value={enteredName}
               type="text"
               id="name"
