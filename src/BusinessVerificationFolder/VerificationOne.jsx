@@ -32,7 +32,7 @@ const VerificationOne = () => {
             talents
           </h6>
 
-          <div className="w-full shadow-md mt-10 mb-4 h-full">
+          <div className=" w-full shadow-md mt-10 mb-4 h-full sm:p-4">
             <VerificationOrder />
 
             <div className="mt-16">
@@ -86,7 +86,7 @@ const VerificationOne = () => {
                   /* and other goodies */
                 }) => (
                   <form
-                    className=" text-xl mt-8 pl-12 "
+                    className=" text-xl mt-8 p-0 md:pl-12 "
                     onSubmit={handleSubmit}
                   >
                     <p className="text-black font-extrabold mb-4 ">
@@ -144,7 +144,7 @@ const VerificationOne = () => {
                     <br />
                     <div className="mt-8   w-full  " id="verify-input1">
                       <div className="flex flex-wrap gap-14  ">
-                        <div className="w-2/5 flex flex-wrap flex-col  ">
+                        <div className="flex flex-wrap flex-col md:w-2/5  ">
                           <input
                             type="text"
                             placeholder="Company Name"
@@ -165,7 +165,7 @@ const VerificationOne = () => {
                           </div>
                         </div>
 
-                        <div className="w-2/5  flex flex-wrap flex-col  ">
+                        <div className="  flex flex-wrap flex-col md:w-2/5  ">
                           <input
                             type="text"
                             placeholder="Company Adderess"
@@ -194,7 +194,7 @@ const VerificationOne = () => {
                     <div className="mt-8  w-full" id="verify-input2">
                       <div className="flex flex-wrap gap-14 ">
 
-                        <div className= 'w-2/5 flex flex-wrap flex-col'>
+                        <div className= ' flex flex-wrap flex-col md:w-2/5'>
                         <input
                           type="text"
                           name="website"
@@ -216,7 +216,7 @@ const VerificationOne = () => {
                         
 
 {/* second */}
-                        <div className='w-2/5  flex flex-wrap flex-col'>
+                        <div className='  flex flex-wrap flex-col md:w-2/5'>
                           
                           <input
                         type="text"

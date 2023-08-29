@@ -12,7 +12,7 @@ const VerificationOrder = () => {
  
   return (
     <div className=" ml-12 pt-8">
-      <div className="flex flex-wrap flex  items-start   ">
+      <div className=" sm:hidden md:flex flex-wrap flex  items-start   ">
         <div className="mr-4 flex  flex-col " >
          
           <div className='self-center h-10 w-10 flex  flex-col items-center justify-center  rounded-full border-2 border-blue50 '>
