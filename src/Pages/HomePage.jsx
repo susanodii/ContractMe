@@ -5,12 +5,12 @@ import HeroSection from "../components/Header/HeroSection";
 import Process from "../components/LandingPageContent/Process";
 import WhyUs from "../components/LandingPageContent/WhyUs/WhyUs";
 
-// import GetCertified from "../components/LandingPageContent/GetCertified/GetCertified";
+import GetCertified from "../components/LandingPageContent/GetCertified/GetCertified";
 
 
 
 
-// import Brands from "../components/LandingPageContent/Brands/Brands";
+import Brands from "../components/LandingPageContent/Brands/Brands";
 
 
 
@@ -19,13 +19,13 @@ const HomePage = () => {
   return (
     <main>
       <HeroSection />
-      {/* <Brands /> */}
+      <Brands />
       <WhyUs />
       <Process />
       <ArtisanCategories />
       <ExemplaryArtisans />
       <ClientReviews />
-      {/* <GetCertified /> */}
+      <GetCertified />
     </main>
   );
 };

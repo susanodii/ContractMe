@@ -13,11 +13,7 @@ import { useNavigate } from "react-router-dom";
 const HeroSection = () => {
   let navigate = useNavigate();
 
-  const searchHandler = () => {
-    let destinationPath = "/hire-artisans";
-    navigate(destinationPath);
-  };
-  
+
 
   const allStates = NaijaStates.states();
   
@@ -65,37 +61,23 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        <div className="relative border rounded-2xl border-lightGrey px-6 py-3 ">
-          <img className="inline-block mr-4" src={icons.search} alt="" />
-          <input
+        <div className="border rounded-4xl border-lightGrey pl-6 w-[700px] h-[80px] ">
+         <div className="flex justify-between items-center">
+         <input
             className="focus:outline-none focus:border-none"
             type="text"
-            placeholder="Try “Logistics” or “Jane Doe”"
+            placeholder="What do you need help with"
           />
 
-          {/* <select
-            className="bg-white border-none mr-4 text-lg"
-            name="expertise"
-            id="expertise"
-          >
-            <option value=""> Expertise level </option>
-          </select> */}
-          <select
-            className="bg-white border-none mr-4 text-lg"
-            name="state"
-            id="state"
-          >
-            <option value=""> Nasarawa L.G.A</option>
-            {allStates.map((state) => (
-              <option key={state}> {state} </option>
-            ))}
-          </select>
+         
           <Button
-            onClick={searchHandler}
-            className="bg-blue500 text-white font-semibold text-lg"
+            className="bg-blue500 text-white font-semibold text-lg  h-[80px] border-none"
           >
-            Search
+             <img className="inline-block text-white" src={icons.search} alt="" />
           </Button>
+
+         </div>
+         
 
        
         </div>

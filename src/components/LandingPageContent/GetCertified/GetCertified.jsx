@@ -15,7 +15,9 @@ const GetCertified = () => {
         </p>
         <Button className="w-3/6 text-blue500 border border-solid border-blue500 font-semibold text-lg ">
           Sign up for training
-        </Button>
+        </Button
+        
+        >
       </div>
 
       <div>
