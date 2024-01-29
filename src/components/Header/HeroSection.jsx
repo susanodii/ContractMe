@@ -62,10 +62,10 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        <div className="border rounded-4xl border-lightGrey  w-[700px] h-[80px] rounded-full ">
+        <div className=" w-[300px]  h-[80px] border rounded-4xl  rounded-full border-lightGrey lg:w-[700px]   ">
          <div className="flex justify-between items-center   w-full h-full " >
          <input
-            className="focus:outline-none focus:border-none w-full    placeholder:text-blue-300 placeholder:italic placeholder:uppercase  px-5 py-2 rounded-full outline-none"
+            className="focus:outline-none focus:border-none w-full   placeholder:uppercase  px-2 py-1  placeholder:text-blue-300 placeholder:italic lg:placeholder:uppercase  lg:px-5 lg:py-2 rounded-full outline-none"
             type="text"
             placeholder="What do you need help with?"
           />
