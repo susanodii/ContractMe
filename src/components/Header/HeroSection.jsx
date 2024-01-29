@@ -1,5 +1,6 @@
 import Button from "../UI/Button";
 import NaijaStates from "naija-state-local-government";
+import SearchIcon from '@mui/icons-material/Search';
 import React from "react";
 import frame1 from "../../assets/Frame_348.png";
 import frame2 from "../../assets/Frame_349.png";
@@ -56,25 +57,25 @@ const HeroSection = () => {
           <Button className="text-blue500 border border-solid border-blue500 font-semibold text-lg ">
             Join ContractMe
           </Button>
-          <Button className="bg-blue500 text-white font-semibold text-lg">
+          <Button className="bg-blue500 text-white font-semibold text-lg ">
             Post a Job
           </Button>
         </div>
 
-        <div className="border rounded-4xl border-lightGrey pl-6 w-[700px] h-[80px] ">
-         <div className="flex justify-between items-center">
+        <div className="border rounded-4xl border-lightGrey  w-[700px] h-[80px] rounded-full ">
+         <div className="flex justify-between items-center   w-full h-full " >
          <input
-            className="focus:outline-none focus:border-none"
+            className="focus:outline-none focus:border-none w-full    placeholder:text-blue-300 placeholder:italic placeholder:uppercase  px-5 py-2 rounded-full outline-none"
             type="text"
-            placeholder="What do you need help with"
+            placeholder="What do you need help with?"
           />
 
          
-          <Button
-            className="bg-blue500 text-white font-semibold text-lg  h-[80px] border-none"
+          <button
+            className="bg-blue500 text-white  rounded-4xl text-lg h-full border-none w-[100px] rounded-r-full"
           >
-             <img className="inline-block text-white" src={icons.search} alt="" />
-          </Button>
+             <img className="inline-block text-white " src={icons.search} alt="" />
+          </button>
 
          </div>
          
