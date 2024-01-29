@@ -11,6 +11,7 @@ import GetCertified from "../components/LandingPageContent/GetCertified/GetCerti
 
 
 import Brands from "../components/LandingPageContent/Brands/Brands";
+import { Task } from "@mui/icons-material";
 
 
 
@@ -19,8 +20,10 @@ const HomePage = () => {
   return (
     <main>
       <HeroSection />
-      <Brands />
+      <Task/>
+      {/* <Brands /> */}
       <WhyUs />
+
       <Process />
       <ArtisanCategories />
       <ExemplaryArtisans />

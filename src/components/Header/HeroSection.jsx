@@ -68,6 +68,7 @@ const HeroSection = () => {
             className="focus:outline-none focus:border-none w-full   placeholder:uppercase  px-2 py-1  placeholder:text-blue-300 placeholder:italic lg:placeholder:uppercase  lg:px-5 lg:py-2 rounded-full outline-none"
             type="text"
             placeholder="What do you need help with?"
+
           />
 
          
